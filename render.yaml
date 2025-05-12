@@ -1,6 +1,6 @@
 services:
   - type: web
-    name: oct-retina-classifier
+    name: oct
     env: python
     buildCommand: pip install -r requirements.txt
     startCommand: gunicorn app:app
